@@ -1,6 +1,7 @@
 import 'package:awesome_notifications/awesome_notifications.dart';
 import 'package:flutter/material.dart';
 import 'package:islamic_app_ui/screens/prayer_screen.dart';
+import 'package:islamic_app_ui/screens/qibla_compass_screen.dart';
 import 'package:islamic_app_ui/screens/quran_screen.dart';
 import 'package:islamic_app_ui/screens/prayer_time_screen.dart';
 import 'package:islamic_app_ui/screens/surah_screen.dart';
@@ -32,7 +33,7 @@ class MyApp extends StatelessWidget {
     return MaterialApp(
       debugShowCheckedModeBanner: false,
       theme: ThemeData.dark(),
-      home: PrayerTimePermissionScreen(),
+      home: QiblaCompassScreen(),
     );
   }
 }
